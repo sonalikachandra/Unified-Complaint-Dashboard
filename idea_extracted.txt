@@ -1,0 +1,252 @@
+(An Initiative of Government of India, Ministry of Finance , Department of Financial Services)
+PSBs Hackathon Series 2026
+PRESENTS
+
+PROBLEM STATEMENT & TEAM DETAILS
+TEAM NAME
+(AS SUBMITTED ON PORTAL) Queen Mode
+PROBLEM STATEMENT TITLE Unified Customer Complaint Communication Dashboard
+ NAME GENDER AREA OF EXPERTISE
+Member 1 Shakshi Yadav Female AI & Backend Developer
+Member 2 Sonalika Chandra Female AI & Frontend Developer
+Member 3 Sanskruti Kulkarni Female AI & ML
+
+Uniﬁed Customer Complaint Communication Dashboard
+AI-powered complaint intelligence platform that collects complaints from 
+multiple channels (such as email, branch logs, chat, call center notes, and 
+social media),  then automatically:
+● Categorizes complaints,
+● Detects sentiment and urgency,
+● Identifies duplicate or repeated issues,
+● Generates suggested responses,
+● Tracks SLA and escalation,
+● Shows trends by branch, product, region, and complaint type.
+Detailed Working 
+Solution 
+Dashboard 
+Visualization
+How it address the problem?
+❖ Faster resolution
+❖ Provide live complaint 
+status to customer.
+❖ Identify repeated issues 
+or duplicate complaints
+❖ Ensure SLA compliance.
+❖ Generating AI draft 
+responses.
+● Root Cause Intelligence
+● Complaint Spike 
+Prediction 
+● Auto Action 
+Recommendation Engine
+● Customer Churn Risk 
+Detection
+● End-to-End Intelligent 
+Complaint Lifecycle
+Our solution
+Innovation
+
+OUTLINE OF UNIQUE & INNOVATIVE SOLUTION
+“From complaint tracking to intelligent complaint resolution”
+Our platform goes beyond complaint logging — it classifies, summarizes, 
+verifies, and optimizes complaint handling using AI.
+Analyze 
+Summarize 
+Verify
+70%
+Faster Triage
+50%
+Less 
+Duplicates
+3X
+Quicker Reviews
+24/7
+Monitoring
+AI identifies the 
+underlying reason 
+behind repeated 
+complaints.
+Example: 80% of 
+ATM failure 
+complaints linked 
+to 3 branches.
+AI predicts future 
+complaint surges 
+before they 
+happen.
+This helps the bank 
+act early and 
+prevent service 
+issues.
+The system not only 
+shows insights, but 
+also suggests next 
+actions.
+Example: increase 
+staff, fix server, notify 
+affected customers.
+Root Cause 
+Intelligence
+Complaint Spike 
+Prediction
+AI Action 
+Recommendations
+Key Features 
+1. Intake & Understanding
+ 2. Smart Complaint Handling
+3. Resolution & Monitoring
+
+TECHNICAL APPROACH
+Frontend: React.js, Tailwind CSS
+Backend: Flask / FastAPI
+Database: MongoDB / PostgreSQL
+AI/NLP: Python, spaCy, Transformers
+GenAI: OpenAI / LLM APIs
+Visualization: Chart.js / Power BI
+Deployment: Docker / Cloud (AWS)
+Technologies Used
+
+
+FEASIBILITY & VIABILITY
+● Built using existing NLP & 
+GenAI technologies, reducing 
+development complexity
+● Can operate using synthetic or 
+anonymized complaint data, 
+avoiding real data dependency
+● Easily deployable on cloud 
+infrastructure (AWS / Azure / 
+GCP)
+● Modular architecture allows 
+easy integration with existing 
+banking systems
+● Scalable design supports 
+high-volume real-time 
+complaint processing
+● Data Anonymization & 
+Encryption
+● Apply multilingual NLP models
+● Human-in-the-Loop Validation
+ Critical cases reviewed before 
+final response
+● Hybrid Approach (AI + Rules)
+ Combines ML with rule-based 
+logic for accuracy
+● Model Fine-Tuning & Continuous 
+Learning
+● API-Based Integration Layer
+ Enables smooth connection with 
+banking systems
+● Data Privacy & Security Risks
+ Handling sensitive customer 
+information
+● Multilingual complaint handling
+● Incorrect Classification / Bias
+ NLP models may misinterpret 
+complaint context
+● Unstructured & Noisy Data
+ Complaints from different 
+channels vary in quality
+● GenAI Hallucination Risk
+ AI-generated responses may be 
+inaccurate
+● Integration Complexity
+ Connecting with legacy banking 
+systems
+Technically & Operationally 
+Feasible Potential Challenges & Risks Mitigation Strategies
+
+IMPACT & BENEFITS
+● Fragmented complaint handling across 
+multiple channels
+● Slow resolution
+● Lack of transparency for customers
+● Inefficient operations for banks
+● Higher operational costs
+● Lower customer satisfaction
+● Faster complaint resolution
+● Transparent tracking for customers
+● Multilingual communication support
+● Reduced processing time
+● Improved operational efficiency
+● Better monitoring for management
+● Reduced duplicate complaints
+● Higher agent productivity
+● Improved customer satisfaction
+Before Our Solution
+Organizational
+03
+More efficient complaint handling and 
+reporting
+Economic
+02
+Lower operational cost and fewer 
+repeated service failures
+With Our Solution
+Social
+01
+       
+        Better customer trust and reduced 
+frustration.
+Benefits
+
+BUSINESS MODEL
+Scalable AI-powered SaaS solution for intelligent complaint management
+Business Model Overview 
+● SaaS-based platform for banks and 
+financial institutions
+● Subscription pricing (monthly/yearly 
+plans)
+● Tier-based features (Basic, Pro, 
+Enterprise)
+● Additional revenue from 
+customization & integration services.
+Target Customers
+● Banks & NBFCs
+● Fintech companies
+● Insurance & financial 
+service providers
+● Large enterprises with 
+customer support systems
+Value Proposition
+● Unified complaint handling
+● Reduced operational costs
+● Improved customer 
+satisfaction 
+● AI-driven insights & 
+automation
+● Efficient SLA monitoring
+Commercialization Strategy
+● Faster complaint resolution
+● Reduced operational costs
+● Improved customer satisfaction
+● AI-driven insights & automation
+● Regulatory compliance support
+Scalability & Expansion
+Market 
+Opportunity
+Go-To-Market Strategy
+
+One Page Summary -> 
+https://drive.google.com/file/d/1nf
+mKgNjeGxp25df-LDyMCUMj_AoQ1
+T9w/view?usp=sharing
+RESEARCH & REFERENCES
+1. NLP for Complaint Classification:   
+● https://www.ijraset.com/research-paper/complaint-classification-model-using-nlp
+● https://www.researchgate.net/publication/363028608
+2. AI in Customer Support Systems:
+● https://ijcttjournal.org/archives/ijctt-v71i3p101
+● https://ijsra.net/sites/default/files/fulltext_pdf/IJSRA-2023-0698.pdf
+3. Complaint Management Platforms:
+● https://www.sentisum.com/customer-service-analytics-software/customer-compl
+aint-analysis-tool
+4. Duplicate Detection & Pattern Recognition:
+● https://arxiv.org/abs/2308.11138
+5. Sentiment Analysis in Customer Feedback:
+● https://link.springer.com/article/10.1007/s10044-023-01182-8?utm_source=chat
+gpt.com
+6. Automated Complaint Handling Systems
+● https://arxiv.org/abs/2404.18963
+YouTube Video ->
+https://youtu.be/v6q-akKrHec
