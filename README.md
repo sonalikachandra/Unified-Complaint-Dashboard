@@ -17,7 +17,7 @@ Built now:
 - Trained complaint category classifier.
 - Sentiment and urgency logic.
 - Duplicate detection.
-- Draft response generation (template + optional OpenAI mode).
+- Draft response generation (template + optional OpenAI or Gemini mode).
 - Streamlit dashboard with filters and trends.
 - CSV upload support so an external dataset can be used when available.
 
@@ -52,13 +52,19 @@ cd c:\Users\Hp\OneDrive\Desktop\IDEA
 C:/Users/Hp/AppData/Local/Programs/Python/Python311/python.exe -m streamlit run app.py
 ```
 
-## 6. Optional OpenAI Draft Responses
+## 6. Optional LLM Draft Responses
 If you want LLM-generated draft replies instead of template mode:
 ```powershell
 $env:OPENAI_API_KEY="your_api_key_here"
 C:/Users/Hp/AppData/Local/Programs/Python/Python311/python.exe -m streamlit run app.py
 ```
-Then choose `openai` in the sidebar provider dropdown.
+Or use Gemini:
+```powershell
+$env:GEMINI_API_KEY="your_api_key_here"
+C:/Users/Hp/AppData/Local/Programs/Python/Python311/python.exe -m streamlit run app.py
+```
+If your Google key is stored under `GOOGLE_API_KEY`, that works too.
+Then choose `openai` or `gemini` in the sidebar provider dropdown.
 
 ## 7. Dependencies
 See `requirements.txt`.
