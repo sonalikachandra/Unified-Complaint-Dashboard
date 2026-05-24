@@ -31,6 +31,16 @@ _load_env_file()
 
 
 def _get_api_key(*names: str) -> str | None:
+    # Try Streamlit secrets first (works on Cloud and locally with secrets.toml)
+    try:
+        import streamlit as st
+        for name in names:
+            if name in st.secrets:
+                return st.secrets[name].strip().strip('"').strip("'")
+    except Exception:
+        pass
+    
+    # Fallback to environment variables
     for name in names:
         value = os.getenv(name)
         if value:
