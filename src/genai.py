@@ -74,19 +74,17 @@ def _gemini_draft(complaint_text: str, predicted_category: str, urgency: str) ->
     if not api_key:
         raise RuntimeError("GEMINI_API_KEY not set")
 
-    from google import genai
+    import google.generativeai as genai
 
-    client = genai.Client(api_key=api_key)
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    genai.configure(api_key=api_key)
+    model_name = os.getenv("GEMINI_MODEL", "gemini-1.5-flash")
+    model = genai.GenerativeModel(model_name)
     prompt = (
         "Draft a concise bank complaint response in 4-5 lines. "
         f"Category: {predicted_category}. Urgency: {urgency}. "
         f"Customer complaint: {complaint_text}"
     )
-    response = client.models.generate_content(
-        model=model,
-        contents=prompt,
-    )
+    response = model.generate_content(prompt)
     text = getattr(response, "text", None)
     if not text:
         raise RuntimeError("Gemini returned no text")
