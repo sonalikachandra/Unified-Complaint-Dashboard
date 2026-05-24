@@ -18,7 +18,7 @@ from src.genai import generate_draft_response, get_last_provider_status
 from src.pipeline import generate_root_cause_insights, process_complaints
 
 
-st.set_page_config(page_title="PS5 Unified Complaint Dashboard", layout="wide")
+st.set_page_config(page_title="Unified Complaint Dashboard", layout="wide")
 
 BULK_GEMINI_DRAFT_LIMIT = 3
 
@@ -92,7 +92,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("PS5: Unified Customer Complaint Communication Dashboard")
+st.title("Unified Customer Complaint Communication Dashboard")
 st.caption("POC flow: Multi-channel complaint intake -> NLP categorization -> sentiment/urgency -> duplicate detection -> Gen-AI draft responses")
 
 # ============================================================================
